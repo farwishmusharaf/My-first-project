@@ -19,5 +19,9 @@ class MainActivity : AppCompatActivity() {
             i=0
             textView.setText(i.toString())
         }
+        pluse2.setOnClickListener {
+            i=i+2
+        textView.setText(i.toString())
+}
     }
 }
